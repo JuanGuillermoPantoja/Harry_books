@@ -8,6 +8,7 @@ export const Products = () => {
     const [data,setData] = useState([]);
     const [Cart, setCart] = useState([]);
     const [quantity, setQuantity] = useState(0);
+    
     const clearCart = () => {
         setCart([]);
     };
@@ -70,7 +71,6 @@ export const Products = () => {
         
         <div>
             <div className="text-left mb-8">
-                <h1>Harry Books - Tienda Online</h1>
                 <div className="w-11/12 h-[1px] bg-black my-4" ></div>
                 <div className="flex justify-between w-11/12">
                     <h2>Libros Disponibles</h2>
